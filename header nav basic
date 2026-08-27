@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f7f7f7;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif ;
+
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  padding: 4px;
+  color: black;
+  
+}
+
+h3{
+  padding-right: 20px;
+
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+gap: 10px;  
+
+  
+  
+}
+
+
+ul{
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+
+}
+
+h1{
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+p{
+  text-align: center;
+  color: #111;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+}
+
+button{
+  background-color: blue;
+  color: white;
+padding: 20px;
+width: 200px;
+border-radius: 10px;
+margin-left: 90px;
+cursor: pointer;
+  margin-top: 30px;
+}
+button:hover{
+  background-color: red;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <h3>Tech Follow</h3>
+
+  <nav>
+  <ul>Home</ul>
+  <ul>About</ul>
+  <ul>Services</ul>
+  <ul>Contact</ul>
+  </nav>
+  </header>
+
+  <main>
+  
+    <h1>Empower Your <br> Digital Grwoth</h1>
+    
+    <p>Simple powerful techonolgy solution desgined to scale with your visio unlock new possiblites</p>
+    <div class="a1">
+    <button>Get Started</button>
+  </div>
+  </main>
+</body>
+</html>
