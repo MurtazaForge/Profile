@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #f7f7f7;
+  margin: 0;
+  font-family: Arial,  sans-serif;
+  color: #111;
+}
+
+header{
+  background-color: white;
+  padding: 28px 32px;
+  font-size: 28px;
+  border-bottom: 1px solid black;
+}
+
+h1{
+  font-size: 52px;
+  margin: 0 0 35px;
+}
+
+.menu{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 28px;
+}
+
+.card{
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 18px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.img{
+  height: 180px;
+  background-color: #e5e5e5;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #555;
+}
+
+@media (max-width: 300px){
+  .menu{
+    grid-template-columns: 1fr;
+    display: grid;
+  }
+  h1{
+    font-size: 30px;
+  }
+}
+
+
+  </style>
+</head>
+<body>
+  <header>Simple Bites cafe</header>
+  <main>
+
+    <h1>Our Menu</h1>
+  <div class="menu">
+  <div class="card">
+  <div class="img"></div>
+  <h2>Carpse Chips</h2>
+  <span class="star">★★★★★</span>
+  <h3>$12.99</h3>
+  <p>fresh tamtaos Avabible youneed for for inbox</p>
+  </div>
+
+  <div class="card">
+  <div class="img"></div>
+  <h2>Carpse Chips</h2>
+  <span class="star">★★★★★</span>
+  <h3>$12.99</h3>
+  <p>fresh tamtaos Avabible youneed for for inbox</p>
+  </div>
+
+  <div class="card">
+  <div class="img"></div>
+  <h2>Carpse Chips</h2>
+  <span class="star">★★★★★</span>
+  <h3>$12.99</h3>
+  <p>fresh tamtaos Avabible youneed for for inbox</p>
+  </div>
+
+  <div class="card">
+  <div class="img"></div>
+  <h2>Carpse Chips</h2>
+  <span class="star">★★★★★</span>
+  <h3>$12.99</h3>
+  <p>fresh tamtaos Avabible youneed for for inbox</p>
+  </div>
+
+
+  <div class="card">
+  <div class="img"></div>
+  <h2>Carpse Chips</h2>
+  <span class="star">★★★★★</span>
+  <h3>$12.99</h3>
+  <p>fresh tamtaos Avabible youneed for for inbox</p>
+  </div>
+
+
+  <div class="card">
+  <div class="img"></div>
+  <h2>Carpse Chips</h2>
+  <span class="star">★★★★★</span>
+  <h3>$12.99</h3>
+  <p>fresh tamtaos Avabible youneed for for inbox</p>
+  </div>
+
+
+
+  </div>
+  </main>
+</body>
+</html>
